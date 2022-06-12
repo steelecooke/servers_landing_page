@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hereocity</title>
+    <link>localhost/</link>
+    <description>Recent content on Hereocity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 12 Jun 2022 22:26:24 +1000</lastBuildDate><atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Login</title>
+      <link>localhost/login/login/</link>
+      <pubDate>Sun, 12 Jun 2022 22:26:24 +1000</pubDate>
+      
+      <guid>localhost/login/login/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>localhost/services/services/</link>
+      <pubDate>Sun, 12 Jun 2022 22:20:05 +1000</pubDate>
+      
+      <guid>localhost/services/services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>localhost/posts/my-first-post/</link>
+      <pubDate>Sun, 12 Jun 2022 20:54:26 +1000</pubDate>
+      
+      <guid>localhost/posts/my-first-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales posuere rhoncus. Nulla iaculis tincidunt lorem quis lacinia. Praesent nunc ipsum, mattis in mi a, hendrerit elementum orci. Etiam rutrum congue metus, a semper elit volutpat lacinia. Quisque suscipit hendrerit suscipit. Curabitur malesuada sodales nibh eu mattis. Praesent ac magna justo. Maecenas lobortis congue dapibus. Aliquam erat volutpat. In gravida aliquam purus, non posuere felis lobortis vitae. Pellentesque vitae nunc eros.</description>
+    </item>
+    
+  </channel>
+</rss>

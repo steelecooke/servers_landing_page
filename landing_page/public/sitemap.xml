@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>localhost/</loc>
+    <lastmod>2022-06-12T22:26:24+10:00</lastmod>
+  </url><url>
+    <loc>localhost/login/login/</loc>
+    <lastmod>2022-06-12T22:26:24+10:00</lastmod>
+  </url><url>
+    <loc>localhost/login/</loc>
+    <lastmod>2022-06-12T22:26:24+10:00</lastmod>
+  </url><url>
+    <loc>localhost/services/</loc>
+    <lastmod>2022-06-12T22:20:05+10:00</lastmod>
+  </url><url>
+    <loc>localhost/services/services/</loc>
+    <lastmod>2022-06-12T22:20:05+10:00</lastmod>
+  </url><url>
+    <loc>localhost/posts/my-first-post/</loc>
+    <lastmod>2022-06-12T20:54:26+10:00</lastmod>
+  </url><url>
+    <loc>localhost/posts/</loc>
+    <lastmod>2022-06-12T20:54:26+10:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/</loc>
+    <lastmod>2022-06-12T20:54:26+10:00</lastmod>
+  </url><url>
+    <loc>localhost/tags/untagged/</loc>
+    <lastmod>2022-06-12T20:54:26+10:00</lastmod>
+  </url><url>
+    <loc>localhost/blog/</loc>
+  </url><url>
+    <loc>localhost/series/</loc>
+  </url>
+</urlset>
