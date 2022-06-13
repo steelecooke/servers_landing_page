@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/</loc>
     <lastmod>2022-06-12T22:26:24+10:00</lastmod>
   </url><url>
-    <loc>localhost/login/login/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/login/login/</loc>
     <lastmod>2022-06-12T22:26:24+10:00</lastmod>
   </url><url>
-    <loc>localhost/login/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/login/</loc>
     <lastmod>2022-06-12T22:26:24+10:00</lastmod>
   </url><url>
-    <loc>localhost/services/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/services/</loc>
     <lastmod>2022-06-12T22:20:05+10:00</lastmod>
   </url><url>
-    <loc>localhost/services/services/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/services/services/</loc>
     <lastmod>2022-06-12T22:20:05+10:00</lastmod>
   </url><url>
-    <loc>localhost/posts/my-first-post/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/posts/my-first-post/</loc>
     <lastmod>2022-06-12T20:54:26+10:00</lastmod>
   </url><url>
-    <loc>localhost/posts/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/posts/</loc>
     <lastmod>2022-06-12T20:54:26+10:00</lastmod>
   </url><url>
-    <loc>localhost/tags/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/tags/</loc>
     <lastmod>2022-06-12T20:54:26+10:00</lastmod>
   </url><url>
-    <loc>localhost/tags/untagged/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/tags/untagged/</loc>
     <lastmod>2022-06-12T20:54:26+10:00</lastmod>
   </url><url>
-    <loc>localhost/blog/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/blog/</loc>
   </url><url>
-    <loc>localhost/series/</loc>
+    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/series/</loc>
   </url>
 </urlset>

@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/"
 title        = "Hereocity"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
