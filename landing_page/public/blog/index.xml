@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Hereocity</title>
-    <link>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/blog/</link>
+    <link>https://d314je4y215uc9.cloudfront.net/blog/</link>
     <description>Recent content in Blog on Hereocity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="https://d314je4y215uc9.cloudfront.net/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

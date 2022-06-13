@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/</loc>
     <lastmod>2022-06-12T22:26:24+10:00</lastmod>
   </url><url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/login/login/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/login/login/</loc>
     <lastmod>2022-06-12T22:26:24+10:00</lastmod>
   </url><url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/login/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/login/</loc>
     <lastmod>2022-06-12T22:26:24+10:00</lastmod>
   </url><url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/services/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/services/</loc>
     <lastmod>2022-06-12T22:20:05+10:00</lastmod>
   </url><url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/services/services/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/services/services/</loc>
     <lastmod>2022-06-12T22:20:05+10:00</lastmod>
   </url><url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/posts/my-first-post/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/posts/my-first-post/</loc>
     <lastmod>2022-06-12T20:54:26+10:00</lastmod>
   </url><url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/posts/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/posts/</loc>
     <lastmod>2022-06-12T20:54:26+10:00</lastmod>
   </url><url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/tags/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/tags/</loc>
     <lastmod>2022-06-12T20:54:26+10:00</lastmod>
   </url><url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/tags/untagged/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/tags/untagged/</loc>
     <lastmod>2022-06-12T20:54:26+10:00</lastmod>
   </url><url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/blog/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/blog/</loc>
   </url><url>
-    <loc>http://hereocity-build.s3-website-ap-southeast-2.amazonaws.com/series/</loc>
+    <loc>https://d314je4y215uc9.cloudfront.net/series/</loc>
   </url>
 </urlset>
