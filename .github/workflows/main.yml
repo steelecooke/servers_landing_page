@@ -17,18 +17,15 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - name: Install Hugo
+      - name: Install Brew
         run: |
-          go version
-          mkdir $HOME/src
-          cd $HOME/src
-          git clone https://github.com/gohugoio/hugo.git
-          cd hugo
-          go install
+          mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+      - name: Install Hugo
+        run: brew install hugo --force --quiet
       - name: Build Hugo Site
         run: |
-          cd $HOME/landing_page
-          hugo
+          cd landing_page
+          hugo -D
   deploy:
     needs: build
     runs-on: ubuntu-latest
