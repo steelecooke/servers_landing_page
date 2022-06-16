@@ -20,6 +20,8 @@ jobs:
       - name: Install Brew
         run: |
           mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+          eval "$(homebrew/bin/brew shellenv)"
+          chmod -R go-w "$(brew --prefix)/share/zsh"
       - name: Install Hugo
         run: brew install hugo --force --quiet
       - name: Build Hugo Site
