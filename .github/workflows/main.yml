@@ -20,7 +20,10 @@ jobs:
       - name: Install Brew
         run: mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
       - name: Install Hugo
-        run: brew install hugo --force --quiet
+        run: |
+          brew install hugo --force --quiet
+          git submodule init
+          git submodule update
       - name: Build Hugo Site
         run: |
           cd landing_page
