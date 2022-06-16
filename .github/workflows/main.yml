@@ -28,8 +28,6 @@ jobs:
         run: |
           cd landing_page
           hugo
-          ls public/posts
-          cd ../
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
