@@ -18,10 +18,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - name: Install Brew
-        run: |
-          mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
-          eval "$(homebrew/bin/brew shellenv)"
-          chmod -R go-w "$(brew --prefix)/share/zsh"
+        run: mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
       - name: Install Hugo
         run: brew install hugo --force --quiet
       - name: Build Hugo Site
