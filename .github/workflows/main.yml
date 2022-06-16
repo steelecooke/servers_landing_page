@@ -25,12 +25,14 @@ jobs:
         run: |
           cd landing_page
           hugo -D
-      - name: Cache Hugo Build
-        id: cache-hugo-build
-        uses: actions/cache@v3
+          cd ../
+      - name: Upload artifact
+        # https://github.com/actions/upload-artifact
+        uses: actions/upload-artifact@v2
         with:
-          path: ./landing_page/public/
-          key: ${{ runner.os }}-hugo-build
+          name: huge_build
+          path: ./landing_page/public
+          retention-days: 1
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -43,10 +45,11 @@ jobs:
       AWS_CLOUDFRONT_DISTRIBUTION_INVALIDATION_PATH: "/*"
       LOCAL_HUGO_PUBLIC_PATH: "./landing_page/public/"
     steps:
-      - uses: actions/cache@v3
-      - name: Generate Prime Numbers
-        if: steps.cache-hugo-build.outputs.cache-hit != 'true'
-        uses: actions/checkout@v3
+      - name: Download build artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: huge_build
+          path: ./landing_page/public
       - run: |
           aws s3 rm $AWS_S3_BUCKET --recursive
           aws s3 cp $LOCAL_HUGO_PUBLIC_PATH $AWS_S3_BUCKET --recursive
