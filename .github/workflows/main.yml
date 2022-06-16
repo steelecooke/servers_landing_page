@@ -17,15 +17,18 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - name: Install GoLang
+      - name: Install Hugo
         run: |
           go version
-      - name: Install Hugo
-        run: echo "install"
+          mkdir $HOME/src
+          cd $HOME/src
+          git clone https://github.com/gohugoio/hugo.git
+          cd hugo
+          go install
       - name: Build Hugo Site
         run: |
-          echo "cd landing_page"
-          echo "hugo -D"
+          cd $HOME/landing_page
+          hugo
   deploy:
     needs: build
     runs-on: ubuntu-latest
