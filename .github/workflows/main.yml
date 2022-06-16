@@ -24,7 +24,8 @@ jobs:
       - name: Build Hugo Site
         run: |
           cd landing_page
-          hugo -D
+          hugo
+          ls /public/posts
           cd ../
       - name: Upload artifact
         uses: actions/upload-artifact@v2
