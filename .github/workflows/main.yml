@@ -16,17 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Install Brew
       - uses: actions/checkout@v3
+      - name: Install Brew
         run: |
           mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
           eval "$(homebrew/bin/brew shellenv)"
           brew update --force --quiet
           chmod -R go-w "$(brew --prefix)/share/zsh"
-      # Runs a single command using the runners shell
       - name: Install Hugo
         run: brew install hugo --force --quiet
-      # Runs a set of commands using the runners shell
       - name: Build Hugo Site
         run: |
           cd landing_page
